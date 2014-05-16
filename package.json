@@ -1,6 +1,6 @@
 {
   "name": "chai-gulp-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple test helper to verify that your stream returns the expected files.",
   "main": "index.js",
   "directories": {
