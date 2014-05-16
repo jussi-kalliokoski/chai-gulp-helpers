@@ -1,6 +1,7 @@
 # chai-gulp-helpers
 
 [![Build Status](https://travis-ci.org/jussi-kalliokoski/chai-gulp-helpers.png?branch=master)](https://travis-ci.org/jussi-kalliokoski/chai-gulp-helpers)
+[![Coverage Status](https://img.shields.io/coveralls/jussi-kalliokoski/chai-gulp-helpers.svg)](https://coveralls.io/r/jussi-kalliokoski/chai-gulp-helpers)
 
 This is a [chai](http://chaijs.com/) plugin for testing [gulp](http://gulpjs.com/) plugins.
 
