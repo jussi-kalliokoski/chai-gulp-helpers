@@ -37,7 +37,7 @@ expect(stream1).to.produce.sameFilesAs(stream2);
 ```javascript
 describe("my gulp plugin", function () {
     it("should do something", function () {
-        var expected = gulp.src("./expected/**/*"", { base: "./expected/" });
+        var expected = gulp.src("./expected/**/*", { base: "./expected/" });
         var actual = gulp.src("./fixtures/**/*", { base: "./fixtures/" })
             .pipe(myGulpPlugin());
         return expect(actual).to.produce.sameFilesAs(actual);
