@@ -40,7 +40,7 @@ describe("my gulp plugin", function () {
         var expected = gulp.src("./expected/**/*", { base: "./expected/" });
         var actual = gulp.src("./fixtures/**/*", { base: "./fixtures/" })
             .pipe(myGulpPlugin());
-        return expect(actual).to.produce.sameFilesAs(actual);
+        return expect(actual).to.produce.sameFilesAs(expected);
     });
 });
 ```
